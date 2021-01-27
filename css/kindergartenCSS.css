@@ -1,0 +1,92 @@
+body {
+	background: url(img/let-there-be-sun.png);
+}
+.img_photo {
+	width: 100%;
+	height: 100%;
+}
+.Lobster_text {
+	font-family: Lobster;
+}
+.Oswald_text {
+	font-family: Oswald;
+}
+.Roboto_Slab_text {
+	font-family: Roboto Slab;
+}
+.Title {
+	background: rgb(255,124,0);
+	background: -moz-linear-gradient(left, rgba(255,124,0,1) 0%, rgba(255,183,107,1) 100%, rgba(255,127,4,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(255,124,0,1) 0%,rgba(255,183,107,1) 100%,rgba(255,127,4,1) 100%);
+	background: linear-gradient(to right, rgba(255,124,0,1) 0%,rgba(255,183,107,1) 100%,rgba(255,127,4,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7c00', endColorstr='#ff7f04',GradientType=1 );
+}
+.page {
+	width: 100%;
+	height: 100%;
+}
+.Title {
+	font-size: 70px;
+	color: #fff7e3;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #A65200;
+	box-shadow: 5px 5px 15px black;
+	border-radius: 5px 100px 5px 100px;
+}
+.Central_block {
+	max-width: 1070px;
+	margin: 0px auto;
+}
+.Main_unit {
+	display: flex;
+	margin: 15px 0px 0px 0px;
+}
+.left_display a {
+	display: block;
+	border-radius: 10px 0px 0px 10px;
+	padding: 3px 0px 3px 5px;
+	margin: 5px 0px 5px 2px;
+	background-color: #f53333;
+	color: #faf0f0;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 0px 0px 3px black;
+	font-size: 22px;
+}
+.left_display a:hover {
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+	transform: scale(1.05);
+	background-color: #f55b5b;
+	color: #f0e6e6;
+}
+.left_display {
+	width: 25%;
+	box-shadow: 0px 0px 5px black;
+	background-color: #d5e51edf;
+	border: 1px solid black;
+	border-radius: 30px 5px 5px 30px;
+	padding: 10px 0px 10px 0px
+}
+.photo_kindergarten {
+	padding: 20px;
+	max-width: 100%;
+}
+.Content_kindergarten {
+	border: 2px solid #4f4d20;
+	border-radius: 0px 20px 20px 0px;
+	width: 75%;
+	background-color: #f2ed61c4;
+	margin: 0px 0px 0px 1px;
+	box-shadow: 0px 0px 5px black;
+}
+.photo_kindergarten img {
+	border-radius: 10px;
+}
+.text_photo_kindergarten {
+	text-align: center;
+	font-size: 20px;
+	line-height: 23px;
+}
+
